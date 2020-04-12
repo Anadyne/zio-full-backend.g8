@@ -39,5 +39,5 @@ To specify the DB Mode, update parameter in `application.conf`
 ### Thanks to 
 * [ZIO Organization](https://zio.dev/)
 * [SoftwareMill](https://softwaremill.com/)
-* [Adam Fraser](https://github.com/adamgfraser/) and [Adam Warsi](https://github.com/adamw) for their excellent tech support
+* [Adam Fraser](https://github.com/adamgfraser/) and [Adam Warski](https://github.com/adamw) for their excellent tech support
 * Many other developers and organizations, who contributed in many different parts of Scala ecosystem 
