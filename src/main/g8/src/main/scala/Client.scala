@@ -20,7 +20,7 @@ class Client() {
       } yield response
     }
 
-    // provide an implementation for the SttpClient dependency; other dependencies are
+    // provide an implementation for the SttpClient dependency. other dependencies are
     // provided by Zio
     sendAndPrint.provideCustomLayer(AsyncHttpClientZioBackend.layer()).fold(err => err, resp => resp)
   }
