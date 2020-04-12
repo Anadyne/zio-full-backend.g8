@@ -15,7 +15,6 @@ class Client() {
     val sendAndPrint: ZIO[Console with SttpClient, Throwable, Response[A]] = {
       for {
         response <- SttpClient.send(req)
-        _        <- putStrLn(s"Got response code: ${response.code}")
         _        <- putStrLn(response.body.toString)
       } yield response
     }
